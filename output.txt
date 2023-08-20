@@ -1,0 +1,63 @@
+-------
+
+ISSUE dsa007 1001 
+
+Success, book Data Structures and Algorithms in C (dsa007) is issued to Ravindra (1001) for 4 days
+
+-------
+
+ISSUE cnw001 1001
+
+Error, book Computer networks (cnw001) is already issued to some one
+
+-------
+
+DELETE phy001
+
+
+Success, book Classical physics (phy001) is deleted
+-------
+
+SHOW OVERDUE
+
+
+
+Success, the list of books with overdue (max isssue period 4 days)
+
+dsa001, 1001
+
+-------
+
+CHECK dsa001
+
+Success, dsa001 (Data Structures and Algorithms in C) issued to user 1001 on 12-09-2013
+
+-------
+
+ISSUE phy001
+
+Error, book phy001 is not available for issue
+
+-------
+
+RENEW dsa002 1003
+
+Error, book dsa002 can not be renewed as it is yet to be issued. So issue the book first
+
+-------
+
+ISSUE dsa002
+
+Success, book Data Structures and Algorithms in C (dsa002) is issued to Ravindra Arora (1003) for 4 days
+
+-------
+
+RENEW dsa001 
+1001
+Success, book Data Structures and Algorithms in C (dsa001) is renewed
+
+-------
+
+EXIT
+Success, Data written back to files
+-------
